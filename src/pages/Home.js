@@ -13,27 +13,6 @@ const Home = () => {
         <li>
           <Link to="/blogpostsone">BlogPostsOne</Link>
         </li>
-        <li>
-          <Link to="/blogpoststwo">BlogPostsTwo</Link>
-        </li>
-        <li>
-          <Link to="/blogpoststhree">BlogPostsThree</Link>
-        </li>
-        <li>
-          <Link to="/blogpostsfour">BlogPostsFour</Link>
-        </li>
-        <li>
-          <Link to="/blogpostsfive">BlogPostsFive</Link>
-        </li>
-        <li>
-          <Link to="/blogpostssix">BlogPostsSix</Link>
-        </li>
-        <li>
-          <Link to="/blogpostsseven">BlogPostsSeven</Link>
-        </li>
-        <li>
-          <Link to="/blogpostseight">BlogPostsEight</Link>
-        </li>
       </ul>
     </div>
   );

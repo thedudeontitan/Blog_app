@@ -31,9 +31,9 @@ const BlogPostsOnePage = () => {
               <Column className="flex flex-col justify-start md:ml-[16px] ml-[24px] sm:mt-[10px] md:mt-[14px] mt-[20px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[71%]">
                 <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start sm:mx-[0] sm:px-[0] sm:w-[100%] w-[82%]">
                   <Text
-                    className="font-normal not-italic text-bluegray_600 w-[auto]"
-                    as="h4"
-                    variant="h4"
+                    className="not-italic text-bluegray_600 w-[auto]"
+                    as="h3"
+                    variant="h3"
                   >
                     by John Doe
                   </Text>
@@ -43,9 +43,9 @@ const BlogPostsOnePage = () => {
                     alt="One"
                   />
                   <Text
-                    className="font-normal sm:ml-[4px] md:ml-[5px] ml-[8px] not-italic text-bluegray_600 w-[auto]"
-                    as="h4"
-                    variant="h4"
+                    className="sm:ml-[4px] md:ml-[5px] ml-[8px] not-italic text-bluegray_600 w-[auto]"
+                    as="h3"
+                    variant="h3"
                   >
                     15 March, 2022
                   </Text>
@@ -57,10 +57,7 @@ const BlogPostsOnePage = () => {
                 >
                   How to create a UX Writing portfolio as a beginner
                 </Text>
-                <Button
-                  className="cursor-pointer font-medium min-w-[40%] sm:mt-[10px] md:mt-[13px] mt-[19px] text-[12px] text-blue_A700 text-center uppercase w-[max-content]"
-                  shape="CircleBorder13"
-                >
+                <Button className="cursor-pointer font-medium min-w-[40%] sm:mt-[10px] md:mt-[13px] mt-[19px] text-[12px] text-blue_A700 text-center uppercase w-[max-content]">
                   UX WRITING
                 </Button>
               </Column>
@@ -74,9 +71,9 @@ const BlogPostsOnePage = () => {
               <Column className="flex flex-col justify-start sm:mt-[10px] md:mt-[14px] mt-[20px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[85%]">
                 <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start sm:mx-[0] sm:px-[0] sm:w-[100%] w-[67%]">
                   <Text
-                    className="font-normal not-italic text-bluegray_600 w-[auto]"
-                    as="h4"
-                    variant="h4"
+                    className="not-italic text-bluegray_600 w-[auto]"
+                    as="h3"
+                    variant="h3"
                   >
                     by John Doe
                   </Text>
@@ -86,9 +83,9 @@ const BlogPostsOnePage = () => {
                     alt="Two"
                   />
                   <Text
-                    className="font-normal sm:ml-[4px] md:ml-[5px] ml-[8px] not-italic text-bluegray_600 w-[auto]"
-                    as="h4"
-                    variant="h4"
+                    className="sm:ml-[4px] md:ml-[5px] ml-[8px] not-italic text-bluegray_600 w-[auto]"
+                    as="h3"
+                    variant="h3"
                   >
                     15 March, 2022
                   </Text>
@@ -102,16 +99,10 @@ const BlogPostsOnePage = () => {
                   <br />
                 </Text>
                 <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-center sm:mt-[10px] md:mt-[13px] mt-[19px] sm:mx-[0] sm:px-[0] rounded-radius13 sm:w-[100%] w-[65%]">
-                  <Button
-                    className="cursor-pointer font-medium min-w-[47%] text-[12px] text-blue_A700 text-center uppercase w-[max-content]"
-                    shape="CircleBorder13"
-                  >
+                  <Button className="cursor-pointer font-medium min-w-[47%] text-[12px] text-blue_A700 text-center uppercase w-[max-content]">
                     UX DESIGN
                   </Button>
-                  <Button
-                    className="cursor-pointer font-medium min-w-[47%] ml-[12px] sm:ml-[6px] md:ml-[8px] text-[12px] text-center text-red_700 uppercase w-[max-content]"
-                    shape="CircleBorder13"
-                  >
+                  <Button className="cursor-pointer font-medium min-w-[47%] ml-[12px] sm:ml-[6px] md:ml-[8px] text-[12px] text-center text-red_700 uppercase w-[max-content]">
                     UI DESIGN
                   </Button>
                 </Row>
@@ -126,9 +117,9 @@ const BlogPostsOnePage = () => {
               <Column className="flex flex-col justify-start sm:mt-[10px] md:mt-[14px] mt-[20px] sm:mx-[0] sm:px-[0] sm:w-[100%] w-[86%]">
                 <Row className="flex flex-row md:flex-wrap sm:flex-wrap items-start sm:mx-[0] sm:px-[0] sm:w-[100%] w-[67%]">
                   <Text
-                    className="font-normal not-italic text-bluegray_600 w-[auto]"
-                    as="h4"
-                    variant="h4"
+                    className="not-italic text-bluegray_600 w-[auto]"
+                    as="h3"
+                    variant="h3"
                   >
                     by John Doe
                   </Text>
@@ -138,9 +129,9 @@ const BlogPostsOnePage = () => {
                     alt="Three"
                   />
                   <Text
-                    className="font-normal sm:ml-[4px] md:ml-[5px] ml-[8px] not-italic text-bluegray_600 w-[auto]"
-                    as="h4"
-                    variant="h4"
+                    className="sm:ml-[4px] md:ml-[5px] ml-[8px] not-italic text-bluegray_600 w-[auto]"
+                    as="h3"
+                    variant="h3"
                   >
                     15 March, 2022
                   </Text>
@@ -152,10 +143,7 @@ const BlogPostsOnePage = () => {
                 >
                   How to Design Your Site to Make it Super-fast
                 </Text>
-                <Button
-                  className="cursor-pointer font-medium min-w-[37%] sm:mt-[10px] md:mt-[13px] mt-[19px] text-[12px] text-blue_A700 text-center uppercase w-[max-content]"
-                  shape="CircleBorder13"
-                >
+                <Button className="cursor-pointer font-medium min-w-[37%] sm:mt-[10px] md:mt-[13px] mt-[19px] text-[12px] text-blue_A700 text-center uppercase w-[max-content]">
                   WEB DESIGN
                 </Button>
               </Column>
